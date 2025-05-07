@@ -197,10 +197,18 @@ button{
 }
 
 
-
-
-/* = Cards
+/* = Text & Icon Styles
 -------------------------------------------------------------- */
+.blockquote{
+	padding:0 20px;
+	border-left:2px solid;
+}
+.blockquote.text-right{
+	border-left:0;
+	border-right:2px solid;
+}
+
+
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -383,6 +391,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container{
 	max-width:1140px;
+}
+.p-style{
+	font-size:12px;
+	float:none;
+	overflow:hidden;
+	height:4vh;
+	padding:4px 4px 4px 4px;
+}
+.s-more-style{
+	font-size:13px;
+	line-height:16px;
 }
 
 /* = Colour
