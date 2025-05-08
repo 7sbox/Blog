@@ -44,9 +44,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-md{
-	padding:50px;
-}
 .bloc-sm{
 	padding:20px 50px;
 }
@@ -163,6 +160,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -181,32 +181,9 @@ button{
 	outline: none!important;
 }
 
-.a-block{
-	width:100%;
-	text-align:left;
-	display: inline-block;
-}
-.text-center .a-block{
-	text-align:center;
-}
-
-/* = Icons
--------------------------------------------------------------- */
-.icon-md{
-	font-size:30px!important;
-}
 
 
-/* = Text & Icon Styles
--------------------------------------------------------------- */
-.blockquote{
-	padding:0 20px;
-	border-left:2px solid;
-}
-.blockquote.text-right{
-	border-left:0;
-	border-right:2px solid;
-}
+
 
 
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
@@ -222,6 +199,24 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+	width:100%;
+	display:inline-block;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 
 
@@ -396,12 +391,23 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:12px;
 	float:none;
 	overflow:hidden;
-	height:4vh;
-	padding:4px 4px 4px 4px;
+	padding:2px 2px 2px 2px;
 }
 .s-more-style{
 	font-size:13px;
 	line-height:16px;
+}
+.team-card{
+	min-height:350px;
+}
+.p-bloc-5-style{
+	font-size:13px;
+	line-height:14px;
+}
+.p-9-style{
+	letter-spacing:0px;
+	text-indent:32px;
+	font-size:16px;
 }
 
 /* = Colour
@@ -409,14 +415,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Background colour styles */
 
+.bgc-white{
+	background-color:#FFFFFF;
+}
 .bgc-black{
 	background-color:#000000;
-}
-
-/* Text colour styles */
-
-.tc-white{
-	color:#FFFFFF!important;
 }
 
 /* Bloc image backgrounds */
